@@ -15,4 +15,4 @@
     *  classificaNivelHeroi(): nesta função é criada a variável "nivelHeroi", a fim de estabelecer a classificação do nível foi utilizada as estruturas condicionais if e else if para verificar o "saldoVitorias" do herói e a partir do resultado a variável "nívelHeroi" assume o nome do nível. E, após a comparação, a variável "nivelHeroi" é retornada.
     
 
-*No final do código é feita através de um console.log() a emissão do nome do herói e o seu nível.*
+*No final do código é emitida uma mensagem através de um console.log() com o nome do herói e o seu nível.*
