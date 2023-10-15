@@ -1,11 +1,11 @@
 let saldoVitorias = calculadoraPartidasRankeadas(86,5)
-let nivel = classificaNivelHeroi(saldoVitorias)
+let nivel = classificaNivelHeroi()
 
 function calculadoraPartidasRankeadas(vitorias,derrotas){
     let saldo = vitorias - derrotas
     return saldo
 }
-function classificaNivelHeroi(saldo){
+function classificaNivelHeroi(){
     let nivelHeroi
     if(saldoVitorias <= 10){
         nivelHeroi = "Ferro"
